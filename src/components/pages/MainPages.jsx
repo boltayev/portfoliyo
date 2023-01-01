@@ -37,7 +37,7 @@ function MainPages(){
       
 					</h1>
 					<div className="job"> I am <span>Web Developer</span> </div>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsam quae dignissimos ratione rem. Deleniti dolore cupiditate voluptatibus perferendis voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsam quae dignissimos ratione rem. Deleniti dolore cupiditate voluptatibus perferendis voluptates.</p>
+					<p>I am Elbek. I am a student.I study at the Karshi branch of Tashkent University of Information Technologies.I am a FrontEnd developer and I am very interested in this field.I graduated from the Open Web Academy with the FrontEnd course.</p>
 					<button>About me</button>
 				</div>
 				<div className="right_block">

@@ -1,5 +1,11 @@
 import "./ServicesPages.scss"
 import Phone from "../images/phone.png"
+import Comp from "../images/comp.svg"
+import Phoness from "../images/smartphone.svg"
+import Css from "../images/css3-alt.svg"
+import React from "../images/atom.svg"
+import Js from "../images/js.svg"
+import Code from "../images/code-simple.svg"
 function ServicesPages(){
 	return(
 	<div className="service">
@@ -11,38 +17,38 @@ function ServicesPages(){
 		
 		<section>
 			<div className="first_block">
-				<img src={Phone} alt="phone" />
-				<div className="desiner">Web Desiner</div>
+				<img src={Comp} alt="phone" />
+				<div className="desiner">UX/UI Designer</div>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio iure dignissimos quo excepturi libero quos ipsa fugiat similique modi dolorem.</p>
 			</div>
 
 			<div className="first_block">
-				<img src={Phone} alt="phone" />
-				<div className="desiner">Web Desiner</div>
+				<img src={Phoness} alt="phone" />
+				<div className="desiner">Mobile Version</div>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio iure dignissimos quo excepturi libero quos ipsa fugiat similique modi dolorem.</p>
 			</div>
 
 			<div className="first_block">
-				<img src={Phone} alt="phone" />
-				<div className="desiner">Web Desiner</div>
+				<img src={Css} alt="phone" />
+				<div className="desiner">Css </div>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio iure dignissimos quo excepturi libero quos ipsa fugiat similique modi dolorem.</p>
 			</div>
 
 			<div className="first_block">
-				<img src={Phone} alt="phone" />
-				<div className="desiner">Web Desiner</div>
+				<img src={React} alt="phone" />
+				<div className="desiner">React Js</div>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio iure dignissimos quo excepturi libero quos ipsa fugiat similique modi dolorem.</p>
 			</div>
 
 			<div className="first_block">
-				<img src={Phone} alt="phone" />
-				<div>Web Desiner</div>
+				<img src={Js} alt="phone" />
+				<div className="desiner">Js Code</div>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio iure dignissimos quo excepturi libero quos ipsa fugiat similique modi dolorem.</p>
 			</div>
 
 			<div className="first_block">
-				<img src={Phone} alt="phone" />
-				<div>Web Desiner</div>
+				<img src={Code} alt="phone" />
+				<div className="desiner">Coder</div>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio iure dignissimos quo excepturi libero quos ipsa fugiat similique modi dolorem.</p>
 			</div>
 

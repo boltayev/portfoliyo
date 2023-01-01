@@ -17,42 +17,45 @@
     .icon{
         // border: 1px solid red;
         margin-bottom: 56px;
-        .bottom_four{
-            position: absolute;
-            // border: 1px solid green;
-            .one{
-                width: 26px;
-                height: 5px;
-                background:#F1690A;
-                position: fixed;
-                top: 15%;
-                left: 5.5%;
-            }
-            .two{
-                width: 5px;
-                height: 25px;
-                background: #F1690A;
-                position: fixed;
-                top: 12%;
-                left: 5.5%;
-            }
-            .three{
-                width: 27px;
-                height: 5px;
-                background: #F1690A;
-                position:fixed;
-                left:13.6%;
-                top: 5%;
-            }
-            .four{
-                width: 5px;
-                height: 26px;
-                background: #F1690A;
-                position:fixed;
-                left:15.4%;
-                top: 5%;
-            }
-        }
+        // position: relative;
+        // .bottom_four{
+        //     // position: absolute;
+        //     position: relative;
+        //     // border: 1px solid green;
+        //     .one{
+        //         width: 26px;
+        //         height: 5px;
+        //         background:#F1690A;
+        //         // position: fixed;
+        //         position: absolute;
+        //         top: 15%;
+        //         left: 5.5%;
+        //     }
+        //     .two{
+        //         width: 5px;
+        //         height: 25px;
+        //         background: #F1690A;
+        //         position: absolute;
+        //         top: 12%;
+        //         left: 4%;
+        //     }
+        //     .three{
+        //         width: 27px;
+        //         height: 5px;
+        //         background: #F1690A;
+        //         position:absolute;
+        //         left:13.6%;
+        //         top: 5%;
+        //     }
+        //     .four{
+        //         width: 5px;
+        //         height: 26px;
+        //         background: #F1690A;
+        //         position:absolute;
+        //         left:15.4%;
+        //         top: 5%;
+        //     }
+        // }
         h1{
             color:var(--body-white-color);
             margin-bottom: 110px;
@@ -175,6 +178,11 @@
     .said_bar{
         max-width: 240px;
         display: none;
+        .icon{
+            .bottom_four{
+                border: 1px solid red;
+            }
+        }
         .inform{
         //    max-width: 200px;
         }

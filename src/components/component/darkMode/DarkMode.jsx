@@ -19,7 +19,7 @@ function DarkMode () {
 		<div className='darkMode'>
 							  <div className="header_block">
             {
-                  !mode ? <img src={Suun} alt="mode"/> :
+                  !mode ? <img src={Suun} alt="mode" onClick={changeTheme}/> :
                     <img  src={Moon} alt="mode" />
                 }
             

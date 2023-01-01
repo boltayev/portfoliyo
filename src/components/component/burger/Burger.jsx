@@ -24,9 +24,13 @@ const Burger = () => {
 				<div className='burger_bottom_four'>
                     <div className="one"></div>
                     <div className="two"></div>
+				</div>
+
+                <div className="fff">
                     <div className="three"></div>
                     <div className="four"></div>
-				</div>
+
+                </div>
 
 				<h1><span>C</span>oder</h1>
 			</div>

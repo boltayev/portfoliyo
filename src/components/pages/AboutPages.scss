@@ -161,7 +161,7 @@
 			.nameSkill{
 				text-align: center;
 				color: #F1690A;
-				font-size: 30px;
+				// font-size: 30px;
 				animation: bottomToTop 1.5s ease forwards;
 			}
 			@keyframes bottomToTop{
@@ -271,7 +271,11 @@
 
 	.lider{
 		// border: 1px solid red;
-		color: #fff;
+		h2{
+			text-align: center;
+			margin-bottom: 40px;
+			color: #F1690A;
+		}
 		// padding: 0px 10px;
 		.block_edu{
 			display: flex;

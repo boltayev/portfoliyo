@@ -1,6 +1,6 @@
 "use client"
 import "./AboutPages.scss"
-import Box from "../images/box.png"
+import Box from "../images/box-open.svg"
 import { TypeAnimation } from 'react-type-animation';
 
 
@@ -98,7 +98,7 @@ function AboutPages(){
 			</div>
 
 			<section className="skill">
-				<div className="nameSkill">Skill</div>
+				<div className="nameSkill"><h2>Skils</h2></div>
 				<div className="bothSkill">
 					<div className="leftSkill">
 					<div className="html br">
@@ -164,6 +164,7 @@ function AboutPages(){
 			</section>
 
 			<div className="lider">
+				<h2>Education</h2>
 			<div className="block_edu">
 				<div className="education">
 					<div className="job_name"></div>
@@ -187,7 +188,7 @@ function AboutPages(){
 								<div className="yearNum">2011 -2014</div>
 							</div>
 							<div className="education_name">College of Economics</div>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, sed recusandae rem minima repudiandae beatae deserunt. Mollitia obcaecati esse perspiciatis.Dolorum, sed recusandae rem minima repudiandae beatae deserunt. Mollitia obcaecati esse perspiciatis.</p>
+							<p>I graduated from the department of technical service and repair of automobiles in college. I graduated from college with honors.</p>
 						</div>
 					</div>
 
@@ -212,22 +213,10 @@ function AboutPages(){
 						<div className="text">
 							<div className="box">
 								<div><img src={Box} alt="box" /></div>
-								<div className="year">2021-2022</div>
-							</div>
-							<div className="job_name">Open Web Academic</div>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis ea repellendus quaerat dwswsw wdwdwswsw quod vel dicta voluptates nesciunt atque illo.Quisquam debitis ea repellendus quaerat quod vel dicta voluptates nesciunt atque illo.</p>
-						</div>
-					</div>
-
-					<div className="start_text">
-						<div className="y-div"></div>
-						<div className="text">
-							<div className="box">
-								<div><img src={Box} alt="box" /></div>
 								<div className="year">2022-2023</div>
 							</div>
 							<div className="job_name">Open Web Academic</div>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis ea repellendus quaerat quod vel dicta voluptates nesciunt ccwdw wddwswsw atque illo.Quisquam debitis ea repellendus quaerat quod vel dicta voluptates nesciunt atque illo.</p>
+							<p>I attended the Front End course at Open Web Academy and graduated with honors.</p>
 						</div>
 					</div>
 
@@ -236,10 +225,10 @@ function AboutPages(){
 						<div className="text">
 							<div className="box">
 								<div><img src={Box} alt="box" /></div>
-								<div className="year">200738-3484</div>
+								<div className="year">2021-2022</div>
 							</div>
-							<div className="job_name">Open Web Academic</div>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis ea repellendus quaerat quod vel dicta voluptates nesciunt  ddqsqs qsqsqsqsq atque illo.Quisquam debitis ea repellendus quaerat quod vel dicta voluptates nesciunt atque illo.</p>
+							<div className="job_name">Continental English study center</div>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis ea repellendus quaerat quod vel dicta voluptates nesciunt ccwdw wddwswsw atque illo.Quisquam debitis ea repellendus quaerat quod vel dicta voluptates nesciunt atque illo.</p>
 						</div>
 					</div>
 				</div>

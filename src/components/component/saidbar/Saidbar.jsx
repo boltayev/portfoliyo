@@ -1,7 +1,5 @@
 import "./Saidbar.scss"
 
-
-
 import Home from "../../images/house.svg"
 import About from "../../images/men.svg"
 import Services from "../../images/service.svg"

@@ -4,11 +4,14 @@
 	position: fixed;
 	right: 20px;
 	top: 10px;
+	z-index: 999;
+
 	.header_block{
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
 		margin-top: 8px;
+
 		img{
 			width: 25px;
 			height: 25px;
