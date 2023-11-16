@@ -1,0 +1,17 @@
+.darkMode{
+	display: flex;
+	gap: 10px;
+	position: fixed;
+	right: 20px;
+	top: 10px;
+	.header_block{
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		margin-top: 8px;
+		img{
+			width: 25px;
+			height: 25px;
+		}
+	}	
+}

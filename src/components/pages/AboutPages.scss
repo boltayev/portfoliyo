@@ -1,0 +1,445 @@
+.aboutPages{
+	padding: 60px 30px;
+	margin-left: 300px;
+	h1{
+		color:var(--body-white-color);
+		font-size: 40px;
+		margin-bottom: 10px;
+    animation: leftToRight 1.5s ease forwards;
+	}
+	@keyframes leftToRight{
+            0%{
+                opasity: 0;
+                transform: translateX(-350px);
+            }
+
+            100%{
+                opasity: 1;
+                transform: translateX(0);
+            }
+        }
+
+	.div_long{
+		width: 70px;
+		height: 4px;
+		background:  #F1690A;
+		margin-bottom: 5px;
+    animation: rightToLeft 1s ease forwards;
+	}
+	@keyframes rightToLeft{
+            0%{
+                opasity: 0;
+                transform: translateX(350px);
+            }
+
+            100%{
+                opasity: 1;
+                transform: translateX(0);
+            }
+        }
+
+	.div_short{
+		width: 40px;
+		height: 4px;
+		background: #F1690A;
+		margin-bottom: 60px;
+    animation: leftToRight 1.5s ease forwards;
+	}
+	@keyframes leftToRight{
+            0%{
+                opasity: 0;
+                transform: translateX(-350px);
+            }
+
+            100%{
+                opasity: 1;
+                transform: translateX(0);
+            }
+        }
+
+	.name{
+		color:var(--body-white-color);
+		font-size: 35px;
+		margin-bottom: 20px;
+    animation: rightToLeft 1.5s ease forwards;
+		span{
+			color:#F1690A;
+		}
+	}
+
+	@keyframes rightToLeft{
+            0%{
+                opasity: 0;
+                transform: translateX(350px);
+            }
+
+            100%{
+                opasity: 1;
+                transform: translateX(0);
+            }
+        }
+
+	p{
+		color:var(--body-white-color);
+		margin-bottom: 50px;
+		line-height: 28px;
+	}
+	.skills{
+		// border: 1px solid red;
+		display: flex;
+		gap: 110px;
+		margin-bottom: 60px;
+		.adreess{
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+		color:var(--body-white-color);
+			.hr{
+				width: 250px;
+				height: 1px;
+				background: rgb(43, 46, 43);
+				margin-top: 5px;
+			}
+			.frelance{
+				margin-bottom: 20px;
+			}
+			button{
+				width: 300px;
+				background: #F1690A;
+				padding: 15px 0px;
+				cursor: pointer;
+				border: 0;
+				border-radius: 22px;
+				color: #fff;
+			}
+		}
+		.a{
+    animation: leftToRight 1.5s ease forwards;
+		}
+		@keyframes leftToRight{
+            0%{
+                opasity: 0;
+                transform: translateX(350px);
+            }
+
+            100%{
+                opasity: 1;
+                transform: translateX(0);
+            }
+    }
+
+		.b{
+    animation: rightToLeft 1.5s ease forwards;
+		}
+			@keyframes rightToLeft{
+            0%{
+                opasity: 0;
+                transform: translateX(350px);
+            }
+
+            100%{
+                opasity: 1;
+                transform: translateX(0);
+            }
+        }
+
+
+		
+	}
+
+		.skill{
+			// border: 1px solid red;
+			display: flex;
+			flex-direction: column;
+			gap: 55px;
+			color:var(--body-white-color);
+			padding-bottom: 10%;
+			.br{
+				margin-bottom: 23px;
+			}
+
+			.nameSkill{
+				text-align: center;
+				color: #F1690A;
+				font-size: 30px;
+				animation: bottomToTop 1.5s ease forwards;
+			}
+			@keyframes bottomToTop{
+            0%{
+                opasity: 0;
+                transform: translateX(350px);
+            }
+
+            100%{
+                opasity: 1;
+                transform: translateX(0);
+            }
+      }
+
+
+
+			.bothSkill{
+				display: flex;
+				gap:17%;
+				.html{
+					.technologiy{
+						display: flex;
+						justify-content: space-between;
+					}
+					.degree{
+						width: 370px;
+						height: 5px;
+						background: #F1690A;
+						box-shadow: 105px 0px 0px 0px rgb(43, 46, 43);
+					}
+				}
+				.css{
+					.technologiy{
+						display: flex;
+						justify-content: space-between;
+					}	
+					.degree{
+						width: 350px;
+						height: 5px;
+						background: #F1690A;
+						box-shadow: 125px 0px 0px 0px rgb(43, 46, 43);					
+					}		
+				}
+				.bootstrap{
+					.technologiy{
+						display: flex;
+						justify-content: space-between;
+					}	
+					.degree{
+						width: 300px;
+						height: 5px;
+						background: #F1690A;
+						box-shadow: 173px 0px 0px 0px rgb(43, 46, 43);					
+					}		
+				}
+				.sass{
+					.technologiy{
+						display: flex;
+						justify-content: space-between;
+					}	
+					.degree{
+						width: 334px;
+						height: 5px;
+						background: #F1690A;
+						box-shadow: 140px 0px 0px 0px rgb(43, 46, 43);				
+					}		
+				}
+				.git{
+					.technologiy{
+						display: flex;
+						justify-content: space-between;
+					}	
+					.degree{
+						width: 370px;
+						height: 5px;
+						background: #F1690A;
+						box-shadow: 115px 0px 0px 0px rgb(43, 46, 43);					
+					}		
+				}
+				.js{
+					.technologiy{
+						display: flex;
+						justify-content: space-between;
+					}	
+					.degree{
+						width: 340px;
+						height: 5px;
+						background:  #F1690A;
+						box-shadow: 145px 0px 0px 0px rgb(43, 46, 43);					
+					}		
+				}
+				.react{
+					.technologiy{
+						display: flex;
+						justify-content: space-between;
+					}	
+					.degree{
+						width: 320px;
+						height: 5px;
+						background: #F1690A;
+						box-shadow: 163px 0px 0px 0px rgb(43, 46, 43);				
+					}		
+				}
+			}
+
+		}
+
+	.lider{
+		// border: 1px solid red;
+		color: #fff;
+		// padding: 0px 10px;
+		.block_edu{
+			display: flex;
+			gap: 40px;
+			// margin-top: 10px;
+			// border: 1px solid red;
+			.education{
+				background:var(--body-bg-saidbar-color);
+				// width: 500px;
+				// border: 1px solid red;
+				padding: 0px 10px;
+				border-radius: 10px;
+				.start_text{
+					display: flex;
+					gap: 15px;
+					.y-div{
+						width: 3px;
+						height: 160px;
+						background: #F1690A;
+						margin-top: 20px;
+					}
+					.inform{
+						.box{
+							display: flex;
+							gap: 10px;
+							align-items: center;
+							// border: 1px solid red;
+							color: #fff;
+							margin-bottom: 18px;
+							.yearNum{
+							color:var(--body-white-color);
+							}
+
+							img{
+								width: 25px;
+								height: 25px;
+							}
+						}
+						.education_name{
+							color:var(--body-white-color);
+							margin-bottom: 18px;
+						}
+					}
+				}
+			}
+
+			.twoo{
+				// border: 1px solid red;
+				.experiencee{
+					// width: 500px;
+					// border:1px solid red;
+					padding: 0px 10px;
+					background:var(--body-bg-saidbar-color);
+					border-radius: 10px;
+					
+					.start_text{
+						display: flex;
+						gap: 10px;
+						.y-div{
+							width: 3px;
+							height: 160px;
+							background: #F1690A;
+							margin-top: 20px;
+						}
+						.text{
+							.box{
+								// border: 1px solid red;
+								display: flex;
+								align-items: center;
+								gap: 10px;
+								margin-bottom: 18px;
+								color:var(--body-white-color);								
+								img{
+									width: 25px;
+									height: 25px;
+
+								}
+							}
+							.job_name{
+								margin-bottom: 18px;
+								color: #fff;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:570px){
+	.aboutPages{
+		margin-left: 0px;
+		margin-top: 20px;
+		.skills{
+			display: flex;
+			gap: 10px;
+			.a{
+				.hr{
+					width: 100px;
+				}
+			}
+			.b{
+				.hr{
+					width: 100px;
+				}
+			}
+		}
+
+		.skill{
+			display: flex;
+			flex-direction: column;
+			.bothSkill{
+				display: flex;
+				flex-direction: column;
+				.leftSkill{
+					.html{
+						.degree{
+							width: 220px;
+							box-shadow: 110px 0px 0px 0px rgb(43, 46, 43);							
+						}
+					}
+					.css{
+						.degree{
+							width: 200px;
+						}
+					}
+					.sass{
+						.degree{
+							width: 200px;
+						}
+					}
+					.bootstrap{
+						.degree{
+							width: 200px;
+							box-shadow: 105px 0px 0px 0px rgb(43, 46, 43);
+						}
+					}
+				}
+				.righSkill{
+					.git{
+						.degree{
+							width: 200px;
+						}
+					}
+					.js{
+						.degree{
+							width: 200px;
+							box-shadow: 105px 0px 0px 0px rgb(43, 46, 43);
+						}
+					}
+					.react{
+						.degree{
+							width: 200px;
+							box-shadow: 105px 0px 0px 0px rgb(43, 46, 43);
+							
+						}
+					}
+				}
+			}
+		}
+
+		.lider{
+			.block_edu{
+			display: flex;
+			flex-direction: column;
+
+			}
+		}
+	}
+}

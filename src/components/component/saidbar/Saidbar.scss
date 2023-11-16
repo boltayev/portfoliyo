@@ -1,0 +1,182 @@
+.said_bar{
+    // border: 1px solid #F1690A;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    height: 100%;
+    background:var(--body-bg-saidbar-color);
+    padding: 30px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    .icon{
+        // border: 1px solid red;
+        margin-bottom: 56px;
+        .bottom_four{
+            position: absolute;
+            // border: 1px solid green;
+            .one{
+                width: 26px;
+                height: 5px;
+                background:#F1690A;
+                position: fixed;
+                top: 15%;
+                left: 5.5%;
+            }
+            .two{
+                width: 5px;
+                height: 25px;
+                background: #F1690A;
+                position: fixed;
+                top: 12%;
+                left: 5.5%;
+            }
+            .three{
+                width: 27px;
+                height: 5px;
+                background: #F1690A;
+                position:fixed;
+                left:13.6%;
+                top: 5%;
+            }
+            .four{
+                width: 5px;
+                height: 26px;
+                background: #F1690A;
+                position:fixed;
+                left:15.4%;
+                top: 5%;
+            }
+        }
+        h1{
+            color:var(--body-white-color);
+            margin-bottom: 110px;
+            position: relative;
+            top: 20px;
+            animation: topToBottom 1.5s ease forwards;
+            span{
+ 			font-family: Clicker Script;
+            font-size: 35px;
+            }
+        }
+
+        @keyframes topToBottom{
+            0%{
+                opasity: 0;
+                transform: translateY(-200px);
+            }
+
+            100%{
+                opasity: 1;
+                transform: translateY(0);
+            }
+        }
+    }
+    .inform{
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        color:var(--body-white-color);
+        .span{
+            cursor: pointer;
+            color:var(--body-white-color);
+        }
+        img{
+            width: 23px;
+            height: 23px;
+            color: red;
+        }
+        .full{
+            display: flex;
+            gap: 20px;
+            margin-left: 18px;
+        }
+        
+        .home{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            color: #F1690A;
+            .hr{
+            width: 140px;
+            height: 1px;
+            background: rgb(67, 67, 104);
+            }
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            .hr{
+            width: 140px;
+            height: 1px;
+            background: rgb(67, 67, 104);
+            }
+        }
+        .services{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .hr{
+            width: 140px;
+            height: 1px;
+            background: rgb(67, 67, 104);
+            }
+        }
+        .portfoliyo{
+            display: flex;
+             flex-direction: column;
+           
+            gap: 7px;
+            .hr{
+            width: 140px;
+            height: 1px;
+            background: rgb(67, 67, 104);
+            }
+        }
+        .contact{
+            display: flex;
+            flex-direction: column;
+
+            gap: 7px;
+            .hr{
+            width: 140px;
+            height: 1px;
+            background: rgb(67, 67, 104);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .said_bar{
+        max-width: 240px;
+        .inform{
+        //    max-width: 200px;
+        }
+    }
+}
+
+@media screen and (max-width:780px) {
+    .said_bar{
+        max-width: 240px;
+        .inform{
+        //    max-width: 200px;
+        }
+    }
+}
+
+@media screen and (max-width:570px) {
+    .said_bar{
+        max-width: 240px;
+        display: none;
+        .inform{
+        //    max-width: 200px;
+        }
+    }
+}
