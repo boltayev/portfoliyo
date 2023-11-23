@@ -116,8 +116,35 @@
 	}
 }
 
-@media screen and (max-width:900px) {
+// @media screen and (min-width:1025px) and (max-width:2000px) {
+// 	.portfoliyoo{
+// 		margin-left: 23%;
+// 		.project{
+// 			.project_block{
+// 				display: grid;
+// 				grid-template-columns:repeat(3, 1fr);
+// 			}
+// 		}
+// 	}
+// }
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
 	.portfoliyoo{
+		margin-left: 30%;
+		.project{
+			.project_block{
+				display: grid;
+				grid-template-columns:repeat(2, 1fr);
+			}
+		}
+	}
+}
+
+
+@media screen and (min-width:571px) and (max-width:768px) {
+	.portfoliyoo{
+		margin-left: 31%;
 		.project{
 			.project_block{
 				display: grid;

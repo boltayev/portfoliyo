@@ -51,8 +51,21 @@
 	}
 }
 
-@media screen and (max-width:1200px){
+// @media screen and (min-width:1025px) and  (max-width:2000px){
+// 		.service{
+// 			margin-left: 24%;
+// 			padding: 60px 30px 0px 0px;
+// 			section{
+// 				display: grid;
+// 				grid-template-columns:repeat(3, 1fr);
+// 			}
+// 		}
+// }
+
+
+@media screen and (min-width:769px) and  (max-width:1024px){
 		.service{
+			margin-left: 33%;
 			padding: 60px 30px 0px 0px;
 			section{
 				display: grid;
@@ -61,8 +74,9 @@
 		}
 }
 
-@media screen and (max-width:780px){
+@media screen and (min-width:571px) and (max-width:768px){
 		.service{
+			margin-left: 35%;
 			padding: 60px 30px 0px 0px;
 			section{
 				display: grid;

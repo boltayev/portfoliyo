@@ -372,15 +372,15 @@
 		margin-top: 20px;
 		.skills{
 			display: flex;
-			gap: 10px;
+			gap: 40px;
 			.a{
 				.hr{
-					width: 100px;
+					width: 150px;
 				}
 			}
 			.b{
 				.hr{
-					width: 100px;
+					width: 150px;
 				}
 			}
 		}
@@ -446,4 +446,69 @@
 			}
 		}
 	}
+}
+
+@media screen and (min-width:571px) and (max-width:768px){
+	.aboutPages{
+		margin-left: 31%;
+		.skills{
+			// border: 1px solid red;
+			.a{
+				.hr{
+					width: 160px;
+				}
+			}
+			.b{
+				.hr{
+					width: 160px;
+				}
+			}
+		}
+		.skill{
+			// border: 1px solid red;
+			.bothSkill{
+				display: flex;
+				flex-direction: column;
+			}
+		}
+		.lider{
+			// border: 1px solid red;
+		}
+	}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+	.aboutPages{
+		margin-left: 31%;
+		.skills{
+			// border: 1px solid red;
+			.a{
+				.hr{
+					width: 180px;
+				}
+			}
+			.b{
+				.hr{
+					width: 180px;
+				}
+			}
+
+		}
+		.skill{
+			// border: 1px solid red;
+			.bothSkill{
+				display: flex;
+				flex-direction: column;
+			}
+		}
+		.lider{
+			// border: 1px solid red;
+		}
+	}
+}
+
+@media screen and (min-width:1025px) and (max-width:2000px){
+	// .aboutPages{
+	// 	margin-left: 23%;
+	// }
 }

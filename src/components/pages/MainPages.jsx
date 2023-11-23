@@ -20,9 +20,9 @@ function MainPages(){
 		
 		<div className="main_pages">
 				<div className="left_block">
-					<h1>Hello, my name is
+					<h1>Hello, my name is <p className="paragraf"></p>
             <TypeAnimation
-              sequence={[
+              sequence={[ 
                 // Same substring at the start will only be typed out once, initially
                 ' Elbek Boltayev',
                 1000, // wait 1s before replacing "Mice" with "Hamsters"

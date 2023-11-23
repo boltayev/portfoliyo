@@ -34,7 +34,7 @@ function AboutPages(){
 				<div className="adreess a">
 					<div className="birth">
 						<div>
-							<div>Birthday</div>
+							<div>Birthday :</div>
 							<div>6 June 1996</div>
 						</div>
 						<div className="hr"></div>
@@ -42,8 +42,8 @@ function AboutPages(){
 
 					<div className="webside">
 						<div>
-							<div>Webside</div>
-							<div>wwww.bekdev.com</div>
+							<div>Telegram url :</div>
+							<div>@elbekboltayev8</div>
 						</div>
 						<div className="hr"></div>
 					</div>
@@ -55,7 +55,7 @@ function AboutPages(){
 
 					<div className="city">
 						<div>
-							<div>City</div>
+							<div>City :</div>
 							<div>Shaxrisabz</div>
 						</div>
 						<div className="hr"></div>
@@ -67,15 +67,15 @@ function AboutPages(){
 				<div className="adreess b">
 					<div className="age">
 						<div>
-							<div>Age</div>
-							<div>26</div>
+							<div>Age :</div>
+							<div>27</div>
 						</div>
 						<div className="hr"></div>
 					</div>
 
 					<div className="email">
 						<div>
-							<div>Email</div>
+							<div>Email :</div>
 							<div>elbekboltayev@gmail.com</div>
 						</div>
 						<div className="hr"></div>
@@ -199,8 +199,8 @@ function AboutPages(){
 								<div><img src={Box} alt="box" /></div>
 								<div className="yearNum"> 2020 -2024</div>
 							</div>
-							<div className="education_name">Tashkent University of Information Technology Karshi branch</div>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, sed recusandae rem minima repudiandae beatae deserunt. Mollitia obcaecati esse perspiciatis.Dolorum, sed recusandae rem minima repudiandae beatae deserunt. Mollitia obcaecati esse perspiciatis.</p>
+							<div className="education_name">Karshi branch of Tashkent University of Information Technologies</div>
+							<p>Information security</p>
 						</div>
 					</div>
 				</div>
@@ -216,7 +216,8 @@ function AboutPages(){
 								<div className="year">2022-2023</div>
 							</div>
 							<div className="job_name">Open Web Academic</div>
-							<p>I attended the Front End course at Open Web Academy and graduated with honors.</p>
+							<p>
+								I attended the Front End course at Open Web Academy and graduated with honors.</p>
 						</div>
 					</div>
 
@@ -228,7 +229,7 @@ function AboutPages(){
 								<div className="year">2021-2022</div>
 							</div>
 							<div className="job_name">Continental English study center</div>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis ea repellendus quaerat quod vel dicta voluptates nesciunt ccwdw wddwswsw atque illo.Quisquam debitis ea repellendus quaerat quod vel dicta voluptates nesciunt atque illo.</p>
+							<p>Beginner, Elementary, Pre-Intermediate , Intermediate</p>
 						</div>
 					</div>
 				</div>

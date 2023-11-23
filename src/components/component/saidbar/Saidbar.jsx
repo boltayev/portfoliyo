@@ -13,7 +13,7 @@ import {Link, NavLink} from "react-router-dom"
 function Saidbar(){
     return(
         <div className="said_bar">
-            <div className="icon">
+            <div className="iconn">
                 <div className="bottom_four">
                     <div className="one"></div>
                     <div className="two"></div>

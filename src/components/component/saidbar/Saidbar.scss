@@ -8,54 +8,57 @@
     width: 300px;
     height: 100%;
     background:var(--body-bg-saidbar-color);
-    padding: 30px 0px;
+    padding: 50px 0px;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     z-index: 1;
-    .icon{
+    .iconn{
+        display: flex;
+        // align-items:center ;
+        justify-content:center ;
+        width: 150px;
+        height: 90px;
         // border: 1px solid red;
-        margin-bottom: 56px;
-        // position: relative;
-        // .bottom_four{
-        //     // position: absolute;
-        //     position: relative;
-        //     // border: 1px solid green;
-        //     .one{
-        //         width: 26px;
-        //         height: 5px;
-        //         background:#F1690A;
-        //         // position: fixed;
-        //         position: absolute;
-        //         top: 15%;
-        //         left: 5.5%;
-        //     }
-        //     .two{
-        //         width: 5px;
-        //         height: 25px;
-        //         background: #F1690A;
-        //         position: absolute;
-        //         top: 12%;
-        //         left: 4%;
-        //     }
-        //     .three{
-        //         width: 27px;
-        //         height: 5px;
-        //         background: #F1690A;
-        //         position:absolute;
-        //         left:13.6%;
-        //         top: 5%;
-        //     }
-        //     .four{
-        //         width: 5px;
-        //         height: 26px;
-        //         background: #F1690A;
-        //         position:absolute;
-        //         left:15.4%;
-        //         top: 5%;
-        //     }
-        // }
+        margin-bottom: 96px;
+        position: relative;
+        .bottom_four{
+            // position: relative;
+            // border: 1px solid green;
+            .one{
+                width: 26px;
+                height: 5px;
+                background:#F1690A;
+                position: absolute;
+                bottom: 0%;
+                left:0%;
+            }
+            .two{
+                width: 5px;
+                height: 25px;
+                background: #F1690A;
+                position: absolute;
+                bottom: 0%;
+                left: 0%;
+            }
+            .three{
+                width: 27px;
+                height: 5px;
+                background: #F1690A;
+                position:absolute;
+                right:0%;
+                top: 0%;
+            }
+            .four{
+                width: 5px;
+                height: 26px;
+                background: #F1690A;
+                position:absolute;
+                right:0%;
+                top: 0%;
+            }
+        }
         h1{
             color:var(--body-white-color);
             margin-bottom: 110px;
@@ -178,13 +181,5 @@
     .said_bar{
         max-width: 240px;
         display: none;
-        .icon{
-            .bottom_four{
-                border: 1px solid red;
-            }
-        }
-        .inform{
-        //    max-width: 200px;
-        }
     }
 }

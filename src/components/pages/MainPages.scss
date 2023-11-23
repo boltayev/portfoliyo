@@ -1,9 +1,11 @@
 .main_pages{
+	// border: 1px solid red;
 	display: flex;
 	// gap: 20px;
 	// justify-content: space-between;
 	padding: 170px 30px;
 	margin-left: 300px;
+	// margin-left: 12%;
 	.left_block{
 		width: 600px;
 		h1{
@@ -15,6 +17,9 @@
 			span{
 				color: #F1690A;
 				font-family: Clicker Script;
+			}
+			.paragraf{
+				display: none;
 			}
 		}
 
@@ -188,3 +193,30 @@
 		}
 	}
 }
+
+@media screen and (min-width:571px) and (max-width:768px){
+	.main_pages{
+		margin-left: 31%;
+		.right_block{
+			display: none;
+		}
+	}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+	.main_pages{
+		margin-left: 30%;
+		.right_block{
+			display: none;
+		}
+	}
+}
+
+// @media screen and (min-width:1025px) and (max-width:2000px){
+// 	.main_pages{
+// 		margin-left: 23%;
+// 		// .right_block{
+// 		// 	display: none;
+// 		// }
+// 	}
+// }
