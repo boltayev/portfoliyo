@@ -1,0 +1,279 @@
+.contacts{
+	padding: 70px 30px;
+	margin-left: 300px;
+	h1{
+		color:var(--body-white-color);
+		margin-bottom: 7px;
+	}
+	.div_blockk{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		margin-bottom: 60px;
+		.div_long{
+			width: 70px;
+			height: 3px;
+			background:  #F1690A;
+		}
+		.div_short{
+			width: 40px;
+			height: 3px;
+			background: #F1690A;
+		}
+	}
+
+	section{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		// border: 1px solid red;
+		margin-bottom: 8%;
+		h3{
+			color:  #F1690A;
+			font-size: 30px;
+			margin-bottom: 15px;
+		}
+		h4{
+		color:var(--body-white-color);
+			font-size: 25px;
+		}
+		.service{
+			display:grid;
+		grid-template-columns: repeat(4, 1fr);		
+			gap: 50px;
+			// border: 1px solid green;
+			margin-left: -53px;
+			color: #fff;
+			.phones{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				// width: 200px;
+				// background: rgb(43, 46, 43);
+				padding: 20px 0px;
+				border-radius: 20px;
+				img{
+					margin-bottom: 10px;
+					width: 30px;
+					height: 30px;
+				}
+				.email_adreess{
+					margin-bottom: 10px;
+					color:var(--body-white-color);
+				}
+				.num{
+					color:var(--body-white-color);
+				}
+			}
+
+			.locatsiy{
+				width: 200px;
+				// background: rgb(43, 46, 43);
+
+			}
+
+			.email{
+				width: 200px;
+				// background: rgb(43, 46, 43);
+
+			}
+
+			.webside{
+				width: 200px;
+				// background: rgb(43, 46, 43);
+
+			}
+		}
+	}
+
+	.input_section{
+		// border: 1px solid red;
+		h3{
+
+		}
+		h4{
+			margin-bottom: 60px;
+		}
+		.input_block{
+					// border: 1px solid red;
+
+			.text_send{
+				display: flex;
+				gap: 25px;
+				margin-bottom: 30px;
+				input{
+					width: 440px;
+					height: 40px;
+					border-radius: 18px;
+				background:var(--body-bg-saidbar-color);
+					padding: 0px 5px;
+					border: none;
+					color:var(--body-white-color);
+
+				}
+				
+			}
+			.subject{
+				margin-bottom: 30px;
+				input{
+				width: 910px;
+				height: 40px;
+				border-radius: 20px;
+				background:var(--body-bg-saidbar-color);
+				padding: 0px 15px;
+				border: none;
+				color:var(--body-white-color);
+				}
+			}
+			.message{
+				margin-bottom: 30px;
+				input{
+				width: 910px;
+				height: 130px;
+				border-radius: 20px;
+				background:var(--body-bg-saidbar-color);
+				padding: 0px 5px;
+				border: none;
+					color:var(--body-white-color);				}				
+			}
+			button{
+				padding: 15px 50px;
+				background:  #F1690A;
+				color: #fff;
+				border-radius: 25px;
+				cursor: pointer;
+				border: 0;
+			}
+
+		}
+	}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+	.contacts{
+		margin-left: 30%;
+		section{
+			.service{
+				// border: 1px solid red;
+				margin-left: 2%;
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+		.input_section{
+			.input_block{
+				// border: 1px solid red;
+				.text_send{
+					display: flex;
+					flex-direction: column;
+					input{
+						width: 500px;
+					}
+					// background: green;
+				}
+				.subject{
+					input{
+						width: 500px;
+					}
+				}
+				.message{
+					input{
+						width: 500px;
+					}
+				}
+
+			}
+		}
+	}
+}
+
+
+@media screen and (min-width:571px) and (max-width:768px){
+	.contacts{
+		margin-left: 32%;
+		section{
+			.service{
+				margin-left: 2%;
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+		.input_section{
+			.input_block{
+				.text_send{
+					display: flex;
+					flex-direction: column;
+					input{
+						width: 450px;
+					}
+					// background: green;
+				}
+				.subject{
+					input{
+						width: 450px;
+					}
+				}
+				.message{
+					input{
+						width: 450px;
+					}
+				}
+
+			}
+		}
+	}
+}
+
+@media screen and (max-width:570px){
+	.contacts{
+		margin-top: 20px;
+		margin-left: 0px;
+		section{
+			// border: 1px solid red;
+			h4{
+				margin-bottom: 20px;
+			}
+			.service{
+				// border: 1px solid red;
+				padding:0;
+				margin: 0;
+				// padding: 0px 0px 0px 20px;
+				display: grid;
+				grid-template-columns: repeat(1, 1fr);
+				.phones{
+					// background: blueviolet;
+				}
+			}	
+		}
+		.input_section{
+			// border: 1px solid red;
+			h4{
+				text-align: center;
+			}
+			.input_block{
+				// background: red;
+				.text_send{
+					display: flex;
+					flex-direction: column;
+					input{
+						width: 340px;
+					}
+					// background: green;
+				}
+				.subject{
+					input{
+						width: 340px;
+					}
+				}
+				.message{
+					input{
+						width: 340px;
+					}
+				}
+			}
+		}
+	}
+}
+
