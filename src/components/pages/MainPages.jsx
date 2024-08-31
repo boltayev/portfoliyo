@@ -38,7 +38,7 @@ function MainPages(){
 					</h1>
 					<div className="job"> I am <span>Web Developer</span> </div>
 					<p>Mening ismim Elbek.FrontEnd Dasturchiman.Tatu Qarshi filiali intitutini tamomlaganman.Undan
-            Undan tashqari Open Web IT Academiyasini o'qib tugatganman.
+            Undan tashqari Open Web IT Academiyasini o'qib tugatganman.Bir qancha joylarda shu soxa bo'yicha ishlaganman.
           </p>
 					<button>About me</button>
 				</div>
