@@ -5,90 +5,94 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 function AboutPages(){
-	return(
-		<div className="aboutPages"> 
-			<h1>About  Me</h1>
-			<div className="div_long"></div>
-			<div className="div_short"></div>
-			<div className="name">I am Elbek and  
-			<TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-         'FrontEnd Developer',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'UX/UI Designer',
-        1000,
-      ]}
-      wrapper="span"
-      speed={30}
-      style={{ fontSize: '1em', display: 'inline-block' }}
-      repeat={Infinity}
-			/>
+	return (
+		<div className='aboutPages'>
+			<h1>About Me</h1>
+			<div className='div_long'></div>
+			<div className='div_short'></div>
+			<div className='name'>
+				Men Elbek Boltayev
+				<TypeAnimation
+					sequence={[
+						// Same substring at the start will only be typed out once, initially
+						'FrontEnd Dasturchiman',
+						1000, // wait 1s before replacing "Mice" with "Hamsters"
+						'UX/UI Designer',
+						1000,
+					]}
+					wrapper='span'
+					speed={30}
+					style={{ fontSize: '1em', display: 'inline-block' }}
+					repeat={Infinity}
+				/>
+				<span></span>
+			</div>
 
-			  <span></span></div>
-
-
-
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius vel, nulla fugiat ea ex eaque eveniet veritatis sed quod dolore laudantium <br /> hic mollitia quia aliquam, illo repellat exercitationem excepturi <br /> officia! Numquam mollitia blanditiis, nihil totam quasi quis perspiciatis impedit quisquam. </p>
-			<div className="skills">
-				<div className="adreess a">
-					<div className="birth">
+			<p>
+				Qashqadaryo Viloyati Shaxrisabz shahrida tug'ilganman.Tatu Qarshi
+				filiali intitutini tamomlaganman.Undan Undan tashqari Open Web IT
+				Academiyasini o'qib tugatganman.Bir qancha joylarda shu soxa bo'yicha
+				ishlaganman.
+			</p>
+			<div className='skills'>
+				<div className='adreess a'>
+					<div className='birth'>
 						<div>
-							<div>Birthday :</div>
+							<div>Tug'ilgan yil:</div>
 							<div>6 June 1996</div>
 						</div>
-						<div className="hr"></div>
+						<div className='hr'></div>
 					</div>
 
-					<div className="webside">
+					<div className='webside'>
 						<div>
-							<div>Telegram url :</div>
+							<div>Telegram manzil:</div>
 							<div>@elbekboltayev8</div>
 						</div>
-						<div className="hr"></div>
+						<div className='hr'></div>
 					</div>
 
-					<div className="degree">
+					<div className='degree'>
 						<div>Degree:cd</div>
-						<div className="hr"></div>
+						<div className='hr'></div>
 					</div>
 
-					<div className="city">
+					<div className='city'>
 						<div>
-							<div>City :</div>
+							<div>Shaxar :</div>
 							<div>Shaxrisabz</div>
 						</div>
-						<div className="hr"></div>
+						<div className='hr'></div>
 					</div>
 
 					{/* <button>Download Cv</button> */}
 				</div>
 
-				<div className="adreess b">
-					<div className="age">
+				<div className='adreess b'>
+					<div className='yosh'>
 						<div>
 							<div>Age :</div>
-							<div>27</div>
+							<div>28</div>
 						</div>
-						<div className="hr"></div>
+						<div className='hr'></div>
 					</div>
 
-					<div className="email">
+					<div className='email'>
 						<div>
 							<div>Email :</div>
 							<div>elbekboltayev@gmail.com</div>
 						</div>
-						<div className="hr"></div>
+						<div className='hr'></div>
 					</div>
 
-					<div className="phone">
-						<div>Phone: +99891 962 15 48</div>
-						<div className="hr"></div>
+					<div className='phone'>
+						<div>Tel: +99891 962 15 48</div>
+						<div className='hr'></div>
 					</div>
 
-					<div className="frelance">
+					<div className='frelance'>
 						<div>Frelance: Available</div>
-						<div className="hr"></div>
+						<div className='hr'></div>
 					</div>
 				</div>
 
@@ -97,144 +101,207 @@ function AboutPages(){
 				</div> */}
 			</div>
 
-			<section className="skill">
-				<div className="nameSkill"><h2>Skils</h2></div>
-				<div className="bothSkill">
-					<div className="leftSkill">
-					<div className="html br">
-							<div className="technologiy">
-								<div className="">HTML</div>
-								<div className="">85</div>
+			<section className='skill'>
+				<div className='nameSkill'>
+					<h2>Texnologiyalar</h2>
+				</div>
+				<div className='bothSkill'>
+					<div className='leftSkill'>
+						<div className='html br'>
+							<div className='technologiy'>
+								<div className=''>HTML</div>
+								<div className=''>85</div>
 							</div>
-							<div className="degree"></div>
+							<div className='degree'></div>
 						</div>
 
-						<div className="css br">
-							<div className="technologiy">
-								<div className="">CSS</div>
-								<div className="">78</div>
+						<div className='css br'>
+							<div className='technologiy'>
+								<div className=''>CSS</div>
+								<div className=''>78</div>
 							</div>
-							<div className="degree"></div>
+							<div className='degree'></div>
 						</div>
 
-						<div className="sass br">
-							<div className="technologiy">
-								<div className="">SASS</div>
-								<div className="">76</div>
+						<div className='sass br'>
+							<div className='technologiy'>
+								<div className=''>SASS</div>
+								<div className=''>76</div>
 							</div>
-							<div className="degree"></div>
+							<div className='degree'></div>
 						</div>
 
-						<div className="bootstrap br">
-							<div className="technologiy">
-								<div className="">BOOTSTRAP 5</div>
-								<div className="">60</div>
+						<div className='bootstrap br'>
+							<div className='technologiy'>
+								<div className=''>BOOTSTRAP 5</div>
+								<div className=''>60</div>
 							</div>
-							<div className="degree"></div>
+							<div className='degree'></div>
 						</div>
-
 					</div>
 
-					<div className="righSkill">
-						<div className="git br">
-							<div className="technologiy">
-								<div className="">GITHUB / GIT</div>
-								<div className="">75</div>
+					<div className='righSkill'>
+						<div className='git br'>
+							<div className='technologiy'>
+								<div className=''>GITHUB / GIT</div>
+								<div className=''>75</div>
 							</div>
-							<div className="degree"></div>
+							<div className='degree'></div>
 						</div>
 
-						<div className="js br">
-							<div className="technologiy">
-								<div className="">JAVASCRIPT</div>
-								<div className="">71</div>
+						<div className='js br'>
+							<div className='technologiy'>
+								<div className=''>JAVASCRIPT</div>
+								<div className=''>71</div>
 							</div>
-							<div className="degree"></div>
+							<div className='degree'></div>
 						</div>
 
-						<div className="react br">
-							<div className="technologiy">
-								<div className="">REACT JS</div>
-								<div className="">65</div>
+						<div className='react br'>
+							<div className='technologiy'>
+								<div className=''>REACT JS</div>
+								<div className=''>65</div>
 							</div>
-							<div className="degree"></div>
+							<div className='degree'></div>
+						</div>
+
+						<div className='react br'>
+							<div className='technologiy'>
+								<div className=''>TAILWIND CSS</div>
+								<div className=''>70</div>
+							</div>
+							<div className='degree'></div>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<div className="lider">
-				<h2>Education</h2>
-			<div className="block_edu">
-				<div className="education">
-					<div className="job_name"></div>
-					<div className="start_text">
-						<div className="y-div"></div>
-						<div className="inform">
-							<div className="box">
-								<div><img src={Box} alt="box" /></div>
-								<div className="yearNum">2002 -2011</div>
+			<div className='lider'>
+				<h2>Ta'lim</h2>
+				<div className='block_edu'>
+					<div className='education'>
+						<div className='job_name'></div>
+
+						<div className='start_text'>
+							<div className='y-div'></div>
+							<div className='inform'>
+								<div className='box'>
+									<div>
+										<img src={Box} alt='box' />
+									</div>
+									<div className='yearNum'>2011 -2014</div>
+								</div>
+								<div className='education_name'>Iqtisodiyot kolleji</div>
+								<p>Shahrisabz Iqtisodiyot kolleji o'qib tamomlaganman</p>
 							</div>
-							<div className="education_name">70th school in Shkrisabz</div>
-							<p>In 2002 - 2011, I studied at school No. 70. I participated in various events and graduated with honors.</p>
+						</div>
+
+						<div className='start_text'>
+							<div className='y-div'></div>
+							<div className='inform'>
+								<div className='box'>
+									<div>
+										<img src={Box} alt='box' />
+									</div>
+									<div className='yearNum'> 2020 -2024</div>
+								</div>
+								<div className='education_name'>
+									Toshkent axborot texnologiyalari Universiteti Qarshi filialini
+									Bakalavr bosqichini tamomlaganman
+								</div>
+								<p>Axborot xavfsizligi yo'nalishi</p>
+							</div>
 						</div>
 					</div>
 
-					<div className="start_text">
-						<div className="y-div"></div>
-						<div className="inform">
-							<div className="box">
-								<div><img src={Box} alt="box" /></div>
-								<div className="yearNum">2011 -2014</div>
+					<div className='twoo'>
+						<div className='experiencee'>
+							{/* <div>experience</div> */}
+							<div className='start_text'>
+								<div className='y-div'></div>
+								<div className='text'>
+									<div className='box'>
+										<div>
+											<img src={Box} alt='box' />
+										</div>
+										<div className='year'>2022-2023</div>
+									</div>
+									<div className='job_name'>Open Web Academic</div>
+									<p>
+										Dasturlashni chuqurroq o'rganish maqsadida Open Web IT
+										Academiyasida o'qiganman va Sertifikat bilan tamomlaganman.
+									</p>
+								</div>
 							</div>
-							<div className="education_name">College of Economics</div>
-							<p>I graduated from the department of technical service and repair of automobiles in college. I graduated from college with honors.</p>
-						</div>
-					</div>
 
-					<div className="start_text">
-						<div className="y-div"></div>
-						<div className="inform">
-							<div className="box">
-								<div><img src={Box} alt="box" /></div>
-								<div className="yearNum"> 2020 -2024</div>
+							<div className='start_text'>
+								<div className='y-div'></div>
+								<div className='text'>
+									<div className='box'>
+										<div>
+											<img src={Box} alt='box' />
+										</div>
+										<div className='year'>2021-2022</div>
+									</div>
+									<div className='job_name'>
+										Continental Ingliz tili o'quv markazi
+									</div>
+									<p>
+										Ingliz tilini ham o'rganish maqsadida Continental o'quv
+										markazida 1 yil davomida tahsil olganman.
+									</p>
+								</div>
 							</div>
-							<div className="education_name">Karshi branch of Tashkent University of Information Technologies</div>
-							<p>Information security</p>
 						</div>
 					</div>
-				</div>
-
-				<div className="twoo">
-				<div className="experiencee">
-					{/* <div>experience</div> */}
-					<div className="start_text">
-						<div className="y-div"></div>
-						<div className="text">
-							<div className="box">
-								<div><img src={Box} alt="box" /></div>
-								<div className="year">2022-2023</div>
-							</div>
-							<div className="job_name">Open Web Academic</div>
-							<p>
-								I attended the Front End course at Open Web Academy and graduated with honors.</p>
-						</div>
-					</div>
-
-					<div className="start_text">
-						<div className="y-div"></div>
-						<div className="text">
-							<div className="box">
-								<div><img src={Box} alt="box" /></div>
-								<div className="year">2021-2022</div>
-							</div>
-							<div className="job_name">Continental English study center</div>
-							<p>Beginner, Elementary, Pre-Intermediate , Intermediate</p>
-						</div>
-					</div>
-				</div>
 				</div>
 			</div>
+
+			<div className='lider'>
+				<h2>Ish Tajribam</h2>
+				<div className='block_edu'>
+					<div className='education'>
+						<div className='job_name'></div>
+
+						<div className='start_text'>
+							<div className='y-div'></div>
+							<div className='inform'>
+								<div className='box'>
+									<div>
+										<img src={Box} alt='box' />
+									</div>
+									<div className='yearNum'> 2024-yil</div>
+								</div>
+								<div className='education_name'>
+									Qashqadaryo IT park qoshiga qarashli Ko'kdala IT parkida
+									ishlaganman 6 oy davomida
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div className='twoo'>
+						<div className='experiencee'>
+							{/* <div>experience</div> */}
+							<div className='start_text'>
+								<div className='y-div'></div>
+								<div className='text'>
+									<div className='box'>
+										<div>
+											<img src={Box} alt='box' />
+										</div>
+										<div className='year'>2024-yil</div>
+									</div>
+									<div className='job_name'></div>
+									<p>
+										Shahrisabz Shahrida Iqro Liderlari O'quv markazida
+										ishlaganman
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	)

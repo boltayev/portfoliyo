@@ -14,7 +14,7 @@ function Portfoliyo(){
 				<div className="div_short"></div>
 			</div>
 			<div className="project">
-				<div className="pro">My Last Project</div>
+				<div className="pro">Mening loyixalarim</div>
 				<div className="project_block">
 					<div className="first_project ">
 						<img src={Boots} alt="boots" />

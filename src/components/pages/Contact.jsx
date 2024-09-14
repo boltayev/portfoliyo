@@ -14,19 +14,19 @@ function Contact(){
 			</div>
 
 			<section>
-				<h3>Have you any question</h3>
-				<h4>I'm at your service</h4>
+				<h3>Bir qancha savollaringiz bo'lsa</h3>
+				<h4>Men bilan bog'laning</h4>
 				<div className="service">
 					<div className="phones">
 						<img src={Call} alt="icon" />
-						<div className="email_adreess">Call us on</div>
+						<div className="email_adreess">Tell</div>
 						<div className="num">+99891 962 15 48</div>
 					</div>
 
 					<div className="phones">
 						<img src={Map} alt="icon" />
-						<div className="email_adreess">Office</div>
-						<div className="num">Ozodlik Street 60</div>
+						<div className="email_adreess">Uy manzil</div>
+						<div className="num">Ozodlik ko'chasi 60-uy</div>
 					</div>
 
 					<div className="phones">
@@ -38,22 +38,22 @@ function Contact(){
 					<div className="phones">
 						<img src={Website} alt="icon" />
 						<div className="email_adreess">Website</div>
-						<div className="num">elbekcoder.com</div>
+						<div className="num">elbekcoder.uz</div>
 					</div>
 				</div>
 			</section>
 
 			<section className="input_section">
-				<h3>Sevd me and email</h3>
-				<h4>I'm very responsive message</h4>
+				<h3>Taklif va muloxazalar bo'lsa</h3>
+				<h4>Xabar qoldiring</h4>
 				<div className="input_block">
 					<div className="text_send">
-						<div><input type="text" placeholder="Text" /></div>
+						<div><input type="text" placeholder="Matn" /></div>
 						<div><input type="text" placeholder="Email" /></div>
 					</div>
-					<div className="subject"><input type="text" placeholder="Subject" /></div>
+					<div className="subject"><input type="text" placeholder="Xabar" /></div>
 					<div className="message"><input type="text" placeholder="Message" /></div>
-					<button>Send Message</button>
+					<button>Xabar jo'natish</button>
 				</div>
 			</section>
 		</div>
